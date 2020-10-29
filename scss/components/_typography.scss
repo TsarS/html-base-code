@@ -1,0 +1,72 @@
+$title-font-size:  $default-title-font-size;
+$title-letter-spacing: $default-title-letter-spacing;
+$title-line-height: $default-title-line-height;
+$title-margin-bottom: $default-title-margin-bottom;
+
+
+$h1-font-size:  $default-h1-font-size;
+$h1-letter-spacing: $default-h1-letter-spacing;
+$h1-line-height: $default-h1-line-height;
+$h1-margin-bottom: $default-h1-margin-bottom;
+
+$h2-font-size:  $default-h2-font-size;
+$h2-letter-spacing: $default-h2-letter-spacing;
+$h2-line-height: $default-h2-line-height;
+$h2-margin-bottom: $default-h2-margin-bottom;
+
+$h3-font-size:  $default-h3-font-size;
+$h3-letter-spacing: $default-h3-letter-spacing;
+$h3-line-height: $default-h3-line-height;
+$h3-margin-bottom: $default-h3-margin-bottom;
+
+$p-font-size:  $default-p-font-size;
+$p-letter-spacing: $default-p-letter-spacing;
+$p-line-height: $default-p-line-height;
+$p-margin-bottom: $default-p-margin-bottom;
+$p-font-weight: $default-p-font-default;
+
+
+.title {
+  font-size: $title-font-size;
+  letter-spacing: $title-letter-spacing;
+  line-height: $title-line-height;
+  margin-bottom: $title-margin-bottom;
+}
+
+
+
+h1 {
+  font-size: $h1-font-size;
+  letter-spacing: $h1-letter-spacing;
+  line-height: $h1-line-height;
+  margin-bottom: $h1-margin-bottom;
+}
+
+
+
+h2 {
+  font-size: $h2-font-size;
+  letter-spacing: $h2-letter-spacing;
+  line-height: $h2-line-height;
+  margin-bottom: $h2-margin-bottom;
+}
+h2 {
+  font-size: $h3-font-size;
+  letter-spacing: $h3-letter-spacing;
+  line-height: $h3-line-height;
+  margin-bottom: $h3-margin-bottom;
+}
+
+p {
+  font-size: $p-font-size;
+  letter-spacing: $p-letter-spacing;
+  line-height: $p-line-height;
+  margin-bottom: $p-margin-bottom;
+  font-weight: $p-font-weight;
+/*  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+ */
+}

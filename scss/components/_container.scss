@@ -1,0 +1,22 @@
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  @include media-breakpoint-min($sm) {
+    width: 540px;
+  }
+  @include media-breakpoint-min($md) {
+    width: 720px;
+  }
+  @include media-breakpoint-min($ld) {
+    width: 960px;
+  }
+  @include media-breakpoint-min($eld) {
+    width: 1140px;
+  }
+}
+
+

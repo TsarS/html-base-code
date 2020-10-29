@@ -1,0 +1,25 @@
+$tr-background-color: $default-tr-background-color;
+$tr-text-color: $default-tr-text-color;
+$tr-even-background-color: $default-tr-even-background-color;
+$tr-even-text-color: $default-tr-even-text-color;
+
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+/*
+tr:nth-child(even) {
+  background-color: #af9ee1;
+  color:$white;
+}
+
+ */

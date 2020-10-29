@@ -1,0 +1,20 @@
+$link-color:$default-link-color;
+$link-color-hover: $default-link-color-hover;
+$link-color-active: $default-link-color-active;
+$link-decoration: $default-link-decoration;
+$link-font: $default-link-font;
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  font-family: $link-font;
+}
+
+a:hover {
+  color: $link-color-hover;
+}
+
+a:active {
+  color: $link-color-active;
+}
+

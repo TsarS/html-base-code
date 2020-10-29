@@ -1,0 +1,23 @@
+$tag-background-color:$default-tag-background-color;
+$tag-text-color: $default-tag-text-color;
+$tag-text-color-hover:$default-tag-text-color-hover;
+
+.tag {
+  display: inline-block;
+  background: $tag-background-color;
+  color: $tag-text-color;
+  min-width: 100px;
+  max-width: 250px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0.35rem 1rem;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+}
+.tag:hover {
+  color:$tag-text-color-hover;
+}

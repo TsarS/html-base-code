@@ -1,0 +1,7 @@
+{
+  "name": "html",
+  "short_name": "html",
+  "lang": "en-EN",
+  "start_url": "/",
+  "display": "standalone"
+}

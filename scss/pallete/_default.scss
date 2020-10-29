@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+/* Font
+https://fonts.google.com/
+*/
+$base-font: 'Roboto', sans-serif;
+$base-font-size: 20px;
+$base-font-color: #000;
+
+/** Pallete */
+//$primary-color: #755ac3;
+//$secondary-color: #361d7f;
+$primary-color: #000;
+$secondary-color: #000;
+$white: #ffffff;
+$yellow: #fdff64;
+$black: #000000;
+
+
+
+/* Body */
+$base-body-background: #f8f8f8;
+
+
+/* Title */
+$default-title-font-size: 42px;
+$default-title-letter-spacing: normal;
+$default-title-line-height: 65px;
+$default-title-margin-bottom: 27px;
+
+/* h1 */
+$default-h1-font-size: 33px;
+$default-h1-letter-spacing: normal;
+$default-h1-line-height: 52px;
+$default-h1-margin-bottom: 27px;
+
+/* h2 */
+$default-h2-font-size: 26px;
+$default-h2-letter-spacing: normal;
+$default-h2-line-height: 42px;
+$default-h2-margin-bottom: 17px;
+
+/* h3 */
+$default-h3-font-size: 20px;
+$default-h3-letter-spacing: normal;
+$default-h3-line-height: 33px;
+$default-h3-margin-bottom: 11px;
+
+/* p */
+$default-p-font-size: $base-font-size;
+$default-p-letter-spacing: normal;
+$default-p-line-height: 30px;
+$default-p-margin-bottom: 27px;
+$default-p-font-default: 300;
+
+
+/* Links */
+$default-link-color :$base-font-color;
+$default-link-color-hover: $base-font-color;
+$default-link-color-active: $base-font-color;
+$default-link-decoration: underline;
+$default-link-font: $base-font;
+
+/* Limk anchor */
+$default-link-anchor-border-color: $primary-color;
+
+/* Header */
+$default-header-height: 120px;
+$default-header-border-bottom-color: #000;
+$default-header-border-bottom-style: solid;
+$default-header-border-bottom-width: 2px;
+$default-header-background-color: $secondary-color;
+
+
+/** Tag */
+$default-tag-background-color:$primary-color;
+$default-tag-text-color:$white;
+$default-tag-text-color-hover:$white;
+
+/** Table **/
+$default-tr-background-color: $white;
+$default-tr-text-color: $black;
+$default-tr-even-background-color: $secondary-color;
+$default-tr-even-text-color: $white;

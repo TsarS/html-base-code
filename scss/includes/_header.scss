@@ -1,0 +1,20 @@
+$header-height: $default-header-height;
+$header-background-color:$default-header-background-color;
+header {
+  height: $header-height;
+  width: 100%;
+  z-index: 1;
+  background-color: $header-background-color;
+
+}
+
+/*
+$header-border-bottom-color: $default-header-border-bottom-color;
+$header-border-bottom-style: $default-header-border-bottom-style;
+$header-border-bottom-width: $default-header-border-bottom-width;
+
+border-bottom-color: $header-border-bottom-color ;
+  border-bottom-style: $header-border-bottom-style;
+  border-bottom-width: $header-border-bottom-width;
+
+ */

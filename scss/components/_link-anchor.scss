@@ -1,0 +1,5 @@
+$link-anchor-border-color: $default-link-anchor-border-color;
+.link-anchor {
+  text-decoration: none;
+  border-bottom: 1px dotted $link-anchor-border-color;
+}
